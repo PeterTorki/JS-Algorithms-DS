@@ -1,4 +1,4 @@
-isGood = function (s, t) {
+var isGood = function (s, t) {
     let freq = new Map()
     for(let i = 0 ; i < s.length; i++)  freq.set(s[i],  t[i])
     
